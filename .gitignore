@@ -79,7 +79,7 @@ Thumbs.db
 !wp-settings.php
 !wp-signup.php
 !wp-trackback.php
-!wp-xmlrpc.php
+!xmlrpc.php
 !index.php
 !readme.html
 !license.txt
