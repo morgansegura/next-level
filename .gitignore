@@ -52,15 +52,37 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+*.code-wordkspace
+*.DS_Store
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins" directory
 # "plugins" directory
 # "themes" directory
-wp-content/*
+!wp-includes/
+!wp-admin/
+
+#wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
+
+# WP files
+!wp-activate.php
+!wp-blog-header.php
+!wp-comments-post.php
+!wp-cron.php
+!wp-links-opml.php
+!wp-load.php
+!wp-login.php
+!wp-mail.php
+!wp-settings.php
+!wp-signup.php
+!wp-trackback.php
+!wp-xmlrpc.php
+!index.php
+!readme.html
+!license.txt
 
 # Track my theme
 !wp-content/themes/next-level/
