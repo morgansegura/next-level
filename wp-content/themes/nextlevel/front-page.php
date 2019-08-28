@@ -14,7 +14,7 @@ get_header(); ?>
 			<section id="one" class="wrapper style1">
 
 				<div class="image fit flush">
-                    <img src="<php get_stylesheet_directory_uri(); ?>/src/assets/images/pic02.jpg" alt="" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/pic02.jpg" alt="" />
                     <?php echo get_stylesheet_directory_uri(); ?>
 				</div>
 				<header class="special">
