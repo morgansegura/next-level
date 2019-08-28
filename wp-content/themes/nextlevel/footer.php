@@ -15,11 +15,11 @@
         </footer>
 
     <!-- Scripts -->
-        <script src="<?php echo get_stylesheet_uri(); ?>/src/assets/js/jquery.min.js"></script>
-        <script src="<?php echo get_stylesheet_uri(); ?>/src/assets/js/jquery.poptrox.min.js"></script>
-        <script src="<?php echo get_stylesheet_uri(); ?>/src/assets/js/skel.min.js"></script>
-        <script src="<?php echo get_stylesheet_uri(); ?>/src/assets/js/util.js"></script>
-        <script src="<?php echo get_stylesheet_uri(); ?>/src/assets/js/main.js"></script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/jquery.min.js"></script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/jquery.poptrox.min.js"></script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/skel.min.js"></script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/util.js"></script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/main.js"></script>
     <?php wp_footer(); ?>
     </body>
 </html>
