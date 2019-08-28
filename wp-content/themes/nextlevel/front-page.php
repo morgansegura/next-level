@@ -36,22 +36,22 @@ get_header(); ?>
 					<div class="gallery">
 						<div>
 							<div class="image fit flush">
-								<a href="images/pic03.jpg"><img src="images/pic03.jpg" alt="" /></a>
+								<a href="images/pic03.jpg"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic03.jpg" alt="" /></a>
 							</div>
 						</div>
 						<div>
 							<div class="image fit flush">
-								<a href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="images/pic01.jpg"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic01.jpg" alt="" /></a>
 							</div>
 						</div>
 						<div>
 							<div class="image fit flush">
-								<a href="images/pic04.jpg"><img src="images/pic04.jpg" alt="" /></a>
+								<a href="images/pic04.jpg"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic04.jpg" alt="" /></a>
 							</div>
 						</div>
 						<div>
 							<div class="image fit flush">
-								<a href="images/pic05.jpg"><img src="images/pic05.jpg" alt="" /></a>
+								<a href="images/pic05.jpg"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic05.jpg" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -61,21 +61,21 @@ get_header(); ?>
 		<!-- Three -->
 			<section id="three" class="wrapper">
 				<div class="spotlight">
-					<div class="image flush"><img src="images/pic06.jpg" alt="" /></div>
+					<div class="image flush"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic06.jpg" alt="" /></div>
 					<div class="inner">
 						<h3>Viverra Hendrerit</h3>
 						<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
 					</div>
 				</div>
 				<div class="spotlight alt">
-					<div class="image flush"><img src="images/pic07.jpg" alt="" /></div>
+					<div class="image flush"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic07.jpg" alt="" /></div>
 					<div  class="inner">
 						<h3>Curabitur Eget</h3>
 						<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
 					</div>
 				</div>
 				<div class="spotlight">
-					<div class="image flush"><img src="images/pic08.jpg" alt="" /></div>
+					<div class="image flush"><img src="<?php echo get_stylesheet_uri(); ?>/images/pic08.jpg" alt="" /></div>
 					<div class="inner">
 						<h3>Morbi Eleifend</h3>
 						<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
