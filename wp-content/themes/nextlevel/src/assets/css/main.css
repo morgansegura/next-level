@@ -3143,6 +3143,13 @@
 			}
 
 		}
+/* Archives */
+
+
+	.archive-cat {
+		display: flex;
+		list-style: none;
+	}
 
 /* Footer */
 
